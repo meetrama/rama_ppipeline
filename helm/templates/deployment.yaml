@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rama_ppipeline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rama_ppipeline
+  template:
+    metadata:
+      labels:
+        app: rama_ppipeline
+    spec:
+      containers:
+        - name: rama_ppipeline
+          image: your-docker-image
+          ports:
+            - containerPort: 8080

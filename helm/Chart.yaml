@@ -1,0 +1,4 @@
+apiVersion: v2
+name: rama_ppipeline
+description: A Helm chart for deploying rama_pipeline
+version: 0.1.0
