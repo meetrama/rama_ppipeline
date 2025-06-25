@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Template
 metadata:
   name: rama-micro
   description: A Flask microservice with CI/CD and observability
